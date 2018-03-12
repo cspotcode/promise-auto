@@ -28,8 +28,8 @@
     "@types/mocha"
   ],
   "files": [
-    "out",
-    "src",
+    "out/lib",
+    "src/lib",
     "README.md",
     "tsconfig.json"
   ]
