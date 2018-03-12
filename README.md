@@ -16,7 +16,7 @@ unwrapped return values from each task.
 *Based on an example from `async`'s documentation*
 
 ```typescript
-import {auto} from 'promise-auto';
+import {auto} from '@cspotcode/promise-auto';
 
 const results = await auto({
     async getData() {
