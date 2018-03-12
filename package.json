@@ -3,6 +3,8 @@
   "author": "Andrew Bradley <cspotcode@gmail.com>",
   "name": "@cspotcode/promise-auto",
   "version": "0.1.1",
+  "main": "out/lib/index.js",
+  "types": "out/lib/index.d.ts",
   "scripts": {
     "build": "tsc -p .",
     "test": "mocha --require ts-node/register src/test/**/*.ts"
